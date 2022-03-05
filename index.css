@@ -1,0 +1,220 @@
+body{
+    background-color: gray;
+    margin: 5px 0px 0px 0px;
+    height: 1520px;
+}
+.first{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: 8px solid red;
+    border-radius: 15px;
+    color: rgb(233, 0, 0);
+    background-color: aliceblue ;
+    font-style: italic;
+    width: 400px;
+    text-align: center;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    align-items: center;
+    font-weight:bold;
+    font-size: 20px;
+    position:relative;
+    left: 35vw;
+    text-shadow: 2px 2px 3px brown;
+    box-shadow: 6px 6px 0px brown;
+}
+.box{
+    display:flex;
+    margin-left: 5px;
+    border: 6px solid green;
+    width: 97vw;
+    height: 110vh;
+}
+.second{
+    border: 8px solid red;
+    border-radius: 15px;
+    background-color: aliceblue;
+    color: rgb(167, 0, 0);
+    font-weight: bold;
+    font-size: 25px;
+    width: 300px;
+    height: 260px;
+    text-align: center;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 5px brown;
+    box-shadow: 6px 6px 0px brown;
+}
+.image{
+    border: 8px rgb(255, 0, 43) solid;
+    position:relative;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    width: 300px;
+    height: 260px;
+    top: 0px;
+    left: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: 10px;
+    box-shadow: 6px 6px 0px brown;
+}
+img{
+    height: 200px;
+    box-shadow: -5px 5px 6px gray;
+}
+.third{
+    position:absolute;
+    background-color:aliceblue;
+    top: 600px;
+    border: 8px solid red;
+    border-radius: 15px;
+    width: 300px;
+    height: 260px;
+    color: rgb(167, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    text-shadow: 1px 1px 5px rgb(167, 45, 45);
+    align-items: center;
+    box-shadow: 6px 6px 0px brown;
+}
+.forth{
+    border: 8px solid red;
+    border-radius: 15px;
+    height: 260px;
+    width: 300px;
+    position: absolute;
+    right: 30px;
+    top: 600px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    color: black;
+    text-shadow: 2px 2px 8px darkred;
+    box-shadow: 6px 6px 0px brown;
+}
+.rate{
+    font-size: 30px;
+    font-weight: bold;
+}
+input{
+    text-align: center;
+}
+.main{
+    background-color: green;
+    display: flex;
+    border: 6px solid rgb(143, 0, 67);
+    flex-direction: column;
+    width: 60vw;
+    height: 90%;
+    position: absolute;
+    left: 20vw;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: bold;
+}
+.two{
+    background-color: yellow;
+    width: 49%;
+    height: 45%;
+    display: flex;
+    font-style: italic;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 600;
+    justify-content: center;
+    top: 70px;
+    left: 2px;
+}
+.twos{
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.three{
+    background-color: yellow;
+    width: 49%;
+    height: 45%;
+    display: flex;
+    font-style: italic;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 600;
+    justify-content: center;
+    top: 70px;
+    right: 2px;
+}
+.threes{
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.four{
+    background-color: yellow;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    height: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    font-style:italic;
+}
+.fours{
+    font-size: 25px;
+    font-weight: bold;
+    position:relative;
+    top: 9px;
+}
+.float{
+    background-color: greenyellow;
+    border: 6px solid red;
+    width: 40%;
+    height: 10%;
+    position: fixed ;
+    bottom: 40px;
+    left: 30%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2px brown;
+}
+.fone{
+    position: absolute;
+    left: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    top: 8px;
+    font-style: italic;
+    color: rgb(214, 0, 0);
+}
+.ftwo{
+    position: absolute;
+    font-weight: bold;
+    top: 8px;
+    font-style: italic;
+    font-size: 22px;
+    align-items: center;
+    left: 60%;
+    text-align: center;
+    color: rgb(214, 0, 0);
+}
